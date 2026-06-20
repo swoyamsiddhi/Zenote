@@ -1,0 +1,6 @@
+@import url('https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap');
+@import "tailwindcss";
+
+.font-general-sans {
+  font-family: "General Sans", sans-serif;
+}
