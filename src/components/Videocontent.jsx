@@ -29,14 +29,14 @@ const Videocontent = () => {
   }, [])
 
   return (
-    <div className='w-full px-10 pb-10 h-[600px]'>
+    <div className='w-full px-6 md:px-10 pb-6 md:pb-10 h-[320px] sm:h-[450px] md:h-[600px]'>
       <video 
         ref={videoRef} 
         src={video} 
         loop 
         muted 
         playsInline
-        className='h-full w-full object-cover rounded-[100px]'
+        className='h-full w-full object-cover rounded-[40px] md:rounded-[100px]'
       />
     </div>
   )

@@ -1,22 +1,19 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.jpg'
-
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   const links = ['Home', 'Features', 'Notes', 'About']
 
   const hrefMap = {
     Home: '#home',
-    Features: '#features',
+    Features: '#Videocontent',
     Notes: '#notes',
     About: '#about'
   }
 
   return (
-    <div className="w-full h-[84px] bg-[#ECECEC] border-b border-black/[0.08] sticky top-0 z-50">
+    <div className="w-full h-[84px] bg-red-400 border-b border-black/[0.08] sticky top-0 z-50">
       <div className="max-w-[1400px] mx-auto px-12 h-full flex items-center justify-between">
         <div className="flex items-center gap-3 cursor-pointer select-none">
-          <img src={logo} alt="ZeNotes Logo" className="h-[44px] w-[44px] object-contain rounded-lg" />
           <span className="text-[25px] font-light text-[#111] tracking-tight font-general-sans">
             ZeNotes
           </span>
