@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
-  const links = ['Home', 'Features', 'Notes', 'About']
+  const links = ['Home', 'Features', 'Notes', 'AboutMe']
 
   const hrefMap = {
     Home: '#home',
     Features: '#Videocontent',
     Notes: '#notes',
-    About: '#about'
+    AboutMe: '#AboutMe'
   }
 
   return (
